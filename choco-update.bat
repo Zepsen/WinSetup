@@ -19,7 +19,9 @@ choco install `
     -y
 
 @REM Drivers
-choco install geforce-game-ready-driver
+choco install geforce-game-ready-driver `
+    -y
 
 @REM Fonts
-choco install cascadiacode
+choco install cascadiacode `
+    -y
