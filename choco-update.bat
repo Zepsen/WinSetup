@@ -15,8 +15,11 @@ choco install `
     potplayer `
     sudo `
     steam `
-    telegram `
+    telegram `    
     -y
+
+@REM Tor
+choco install utorrent --ignore-checksums -y
 
 @REM Drivers
 choco install geforce-game-ready-driver `
