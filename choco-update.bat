@@ -8,6 +8,7 @@ choco -?
 choco install `
     brave ` 
     deezer `
+    discord `
     ditto `
     git `
     lightshot `
