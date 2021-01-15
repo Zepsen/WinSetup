@@ -20,12 +20,15 @@ choco install `
     -y
 
 @REM Tor
-choco install utorrent --ignore-checksums -y
+choco install utorrent --ignore-checksums `
+    -y
 
 @REM Drivers
 choco install geforce-game-ready-driver `
     -y
 
 @REM Fonts
-choco install cascadiacode `
+choco install 
+    cascadiacode `
+    cascadiacodepl `
     -y
