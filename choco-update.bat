@@ -9,6 +9,7 @@ choco install `
     brave ` 
     deezer `
     discord `
+    displayfusion `
     ditto `
     git `
     lightshot `
@@ -16,7 +17,8 @@ choco install `
     potplayer `
     sudo `
     steam `
-    telegram `    
+    telegram `
+    wox `
     -y
 
 @REM Tor
