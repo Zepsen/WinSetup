@@ -1,5 +1,13 @@
 Set-PoshPrompt -Theme bubblesline
+
 Import-Module posh-git
+# Set the alias `d` for `docker`
+Set-Alias d docker
+# Detect the alias `d` and register completers for both `docker` and `d`
+Import-Module DockerCompletion
+Set-Alias dc docker-compose
+Import-Module DockerComposeCompletion
+
 
 Register-ArgumentCompleter -Native -CommandName aws -ScriptBlock {
     param($commandName, $wordToComplete, $cursorPosition)
